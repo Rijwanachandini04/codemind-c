@@ -1,16 +1,16 @@
 #include<stdio.h>
 #include<math.h>
-main()
+int main()
 {
-    int num,isqrt;
-    float fsqrt;
-    scanf("%d",&num);
-    fsqrt=sqrt(num);
-    isqrt=fsqrt;
-    if(isqrt==fsqrt)
-    printf("True");
-     else
-       printf("False");
-       
-    
+    int n;
+    scanf("%d",&n);
+    int s=sqrt(n);
+    if(s*s==n)
+    {
+        printf("True");
+    }
+    else
+    {
+        printf("False");
+    }
 }
