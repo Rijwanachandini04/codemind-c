@@ -24,5 +24,4 @@ int main()
     }
     avg=sum/c;
     printf("%.2f",avg);
-   
 }
