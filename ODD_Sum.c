@@ -1,19 +1,18 @@
 #include<stdio.h>
-#include<stdlib.h>
 int main()
 {
-    int i,N,sum=0;
-    int *arr;
-    scanf("%d",&N);
-    arr=(int*)malloc(N*sizeof(int));
-    for(i=0;i<N;i++)
+    int n,ar[20],sum=0;
+    scanf("%d",&n);
+    for(int i=0;i<n;i++)
     {
-        scanf("%d",&arr[i]);
-        if(arr[i]%2!=0)
+        scanf("%d",&ar[i]);
+    }
+    for(int i=0;i<n;i++)
+    {
+        if(ar[i]%2!=0)
         {
-            sum+=arr[i];
+            sum=sum+ar[i];
         }
     }
     printf("%d",sum);
-    return 0;
 }
