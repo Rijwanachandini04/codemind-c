@@ -2,10 +2,9 @@
 #include<math.h>
 int main()
 {
-    double p,r,t,ci,x,cc;
+    double p,t,r,c,ci;
     scanf("%lf%lf%lf",&p,&r,&t);
-    x=r/100.0;
-    cc=pow((1+x),t);
-    ci=p*cc;
+    c=pow(1+r/100,t);
+    ci=c*p;
     printf("%.2lf",ci);
 }
