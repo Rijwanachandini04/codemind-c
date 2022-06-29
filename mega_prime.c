@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 int main()
 {
@@ -20,7 +21,7 @@ int main()
             {
                 if(m%j==0)
                 {
-                  fact++;  
+                    fact++;
                 }
             }
             if(fact==2)
@@ -33,15 +34,11 @@ int main()
         if(dig==pr)
         {
             printf("Mega Prime");
-        }
-        else
-        {
+        }else{
             printf("Not Mega Prime");
         }
-    }
-    else
-    {
-       printf("Not Mega Prime");
+    }else{
+        printf("Not Mega Prime");
     }
     return 0;
 }
